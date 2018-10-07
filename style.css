@@ -1,0 +1,96 @@
+body { background-color: #f5f5f5; }
+
+
+#todo .intro {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: auto;
+  font-family: sans-serif;
+  color: #ff8080;
+}
+
+#todo .after-intro #add {
+  text-align: center;
+}
+
+#todo .list {
+  font-size: 24px;
+  list-style-type: none;
+  background: white;
+  text-align: center;
+  padding: 0;
+  width: 600px;
+  margin: 45px auto;
+}
+
+#todo .list span {
+  width: 50px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+#todo .after-intro input {
+  width: 400px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 6px 6px 6px;
+}
+
+#add-button {
+  width: 70px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  padding: 6px 6px 6px 6px;
+}
+
+#add-button:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+#delete-button {
+  font-size: 28px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid white;
+  color: #cc9a9a;
+  margin-right: 20px;
+}
+
+#delete-button:hover {
+  color: #af5b5e;
+  cursor: pointer;
+}
+
+#todo .list li {
+  border-bottom: 2px solid black;
+}
+
+#todo .after-intro #add input::input-placeholder {
+  color: #e6e6e6;
+}
+
+#todo .after-intro .item-name {
+  flex-grow: 2;
+  line-height: 50px;
+}
+
+#todo .wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#todo .item-name-done {
+  text-decoration: line-through;
+}
+
+#todo .after-intro #check-button {
+  cursor: pointer;
+}
